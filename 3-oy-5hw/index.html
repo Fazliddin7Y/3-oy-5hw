@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>Let's talk <br> on something <span>great</span> together</h1>
+            <div class="contact-info">
+                <p><img src="./icons/Group.svg" alt="Email Icon"> andreaDesign@gmail.com</p>
+                <p><img src="./icons/Vector.svg" alt="Phone Icon"> +34 123 456 789</p>
+                <p><img src="./icons/Vector-1.svg" alt="Location Icon"> 123 Street 487 House</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="./icons/Vector-2.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="./icons/Group 1.svg" alt="Behance"></a>
+                <a href="#"><img src="./icons/Vector-3.svg" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="right-side">
+            <form action="#" method="POST">
+                <h2>I'm interested in:</h2>
+                <div class="interests">
+                    <button type="button" class="selected">UX/UI design</button>
+                    <button type="button">Web design</button>
+                    <button type="button">Design system</button>
+                    <button type="button">Graphic design</button>
+                    <button type="button">Other</button>
+                </div>
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Jhon Smith">
+                
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" placeholder="email@gmail.com">
+                
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+                
+                <button type="submit">Send message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
